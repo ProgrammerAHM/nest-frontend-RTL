@@ -1014,7 +1014,7 @@ strong,
 
 .section-title.style-1 {
   position: relative;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--soft_border_color);
   padding-bottom: 20px;
   font-size: 24px;
 }
@@ -1026,7 +1026,7 @@ strong,
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #BCE3C9;
+  background-color: var(--text-active);
 }
 
 .section-title span {
@@ -3506,10 +3506,14 @@ table .product-thumbnail img {
 }
 
 .custom-modal .modal-dialog .btn-close {
+  color: white;
   position: absolute;
   right: 30px;
   top: 30px;
   z-index: 2;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  padding: 5px;
 }
 
 .zoomContainer, .zoomWindow {
@@ -4633,6 +4637,7 @@ table .product-thumbnail img {
 }
 
 .range .list-group-item {
+  color: var(--card-text);
   position: relative;
   display: block;
   padding: 0;
@@ -4798,15 +4803,15 @@ table .product-thumbnail img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #fff;
-  border: 1px solid #f7f8f9;
+  background-color: var(--bg-color);
+
   color: #777;
   padding: 9px 16px;
   border-radius: 10px;
   -webkit-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
   cursor: pointer;
-  border: 1px solid #ececec;
+  border: 1px solid var(--soft_border_color);
 }
 
 .shop-product-fillter .sort-by-product-area .sort-by-product-wrap:hover {
@@ -4852,7 +4857,7 @@ table .product-thumbnail img {
   z-index: 99;
   right: 0;
   padding: 16px 0 21px;
-  background: #fff;
+  background: var(--card);;
   border: 0;
   border-radius: 5px;
   visibility: hidden;
@@ -8115,7 +8120,7 @@ h6.post-title {
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li.menu-item-has-children .menu-expand {
-  right: 0;
+  left: 0;
   position: absolute;
   cursor: pointer;
   z-index: 9;
@@ -8157,7 +8162,7 @@ h6.post-title {
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li ul {
-  padding: 10px 0 0 10px;
+  padding: 10px 10px 0 0 ;
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li ul li {
@@ -9349,7 +9354,7 @@ span.fi-rs-apps {
 .primary-sidebar .sidebar-widget {
   position: relative;
   padding: 30px;
-  border: 1px solid #ececec;
+  border: 1px solid var(--soft_border_color);
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
@@ -9364,7 +9369,7 @@ span.fi-rs-apps {
           align-items: center;
   line-height: 48px;
   border-radius: 5px;
-  border: 1px solid #F2F3F4;
+  border: 1px solid var(--soft_border_color);
   padding: 9px 18px;
   margin: 0 0 15px 0;
   -webkit-box-pack: justify;
@@ -9403,7 +9408,6 @@ span.fi-rs-apps {
   align-items: center;
   padding: 0;
   line-height: 1.5;
-  color: #253D4E;
   font-size: 14px;
 }
 

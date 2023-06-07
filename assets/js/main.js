@@ -49,7 +49,7 @@
         var moneyFormat = wNumb({
             decimals: 0,
             thousand: ",",
-            prefix: "$"
+            prefix: " جنية "
         });
         noUiSlider.create(rangeSlider, {
             start: [500, 1000],
