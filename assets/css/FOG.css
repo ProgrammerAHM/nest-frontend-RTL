@@ -1,0 +1,78 @@
+:root {
+  --bg-color: #18191B;
+  --text-color: #edededde;
+  --text-active: #f701016e;
+  --border-color: #f701016e;
+  --soft_border_color: #2a2626;
+  --btn-color: #f701016e;
+  --focus-field:#2a2626;
+  --card:#242527;
+  --card-text:#a0c2d5;
+  --indicator-filter: invert(100%);
+  --transition-ball: translateX(0);
+}
+
+:root.light {
+  --bg-color: #f0f2f5;
+  --text-color: #333333;
+  --text-active: #f70101;
+  --border-color: #f70101;
+  --soft_border_color: #e1e1e1;
+  --btn-color: #f70101;
+  --focus-field:#4d4d4d;
+  --card:#ffffff;
+  --indicator-filter: invert(0%);
+  --transition-ball: translateX(24px);
+}
+
+
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: var(--text-color);
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+  filter: var(--indicator-filter);
+
+}
+
+.ball{
+  transform: var(--transition-ball);
+}
+
+.header{
+  border-style: solid;
+    border-color: var(--soft_border_color);
+    background-color: var(--card);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-width: 1px !important;
+}
+
