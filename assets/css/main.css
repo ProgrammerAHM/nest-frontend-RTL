@@ -5858,7 +5858,8 @@ table.no-border td, table.no-border th, table.no-border thead {
 
 /*BLOG*/
 .archive-header {
-  background: url(../imgs/blog/header-bg.png) no-repeat center center;
+  /* background: url(../imgs/blog/header-bg.png) no-repeat center center; */
+  background-color: var(--card);
   border-radius: 20px;
   padding: 70px 80px;
   background-size: cover;
@@ -5870,11 +5871,11 @@ table.no-border td, table.no-border th, table.no-border thead {
 }
 
 .tags-list li a {
-  background-color: var(--card);
+  background-color: var(--bg-color);
   display: inline-block;
   border-radius: 30px;
-  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.1);
+          box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.1);
   padding: 10px 20px;
   border: 1px solid var(--soft_border_color);
   font-family: "Quicksand", sans-serif;
@@ -5888,7 +5889,7 @@ table.no-border td, table.no-border th, table.no-border thead {
 }
 
 .tags-list li.active a {
-  color: #253D4E;
+  color: var(--text-active);
 }
 
 .post-list article:not(:last-child) {
