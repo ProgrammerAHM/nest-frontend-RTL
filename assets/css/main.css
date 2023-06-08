@@ -3458,7 +3458,7 @@ table .product-thumbnail img {
 .divider-2 {
   width: 100%;
   height: 1px;
-  background-color: #ececec;
+  background-color: var(--soft_border_color);
 }
 
 .bg-square {
@@ -5248,11 +5248,11 @@ table .product-thumbnail img {
 
 .detail-extralink .detail-qty {
   margin: 0 6px 15px 0;
-  background: #fff;
-  border: 2px solid var(--text-active) !important;
+  background: var(--bg-color);
+  border: 2px solid var(--soft_border_color) !important;
   font-size: 16px;
   font-weight: 700;
-  color: var(--text-active);
+  color: var(--text-color);
   border-radius: 5px;
   padding: 11px 20px 11px 30px;
   max-width: 90px;
@@ -5658,12 +5658,12 @@ table .product-thumbnail img {
 }
 
 .shopping-summery table thead th {
-  background-color: #ececec;
+  background-color: var(--card);
   padding: 18px 0;
   font-family: "Quicksand", sans-serif;
   font-size: 17px;
   font-weight: 700;
-  color: #253D4E;
+  color: var(--card-text);
 }
 
 .shopping-summery table thead th.start {
@@ -5715,6 +5715,8 @@ table.no-border td, table.no-border th, table.no-border thead {
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   padding: 30px 40px;
+  border: 1px solid var(--soft_border_color) ;
+
 }
 
 .order_review {
@@ -5725,9 +5727,9 @@ table.no-border td, table.no-border th, table.no-border thead {
 
 .toggle_info {
   padding: 12px 20px;
-  background-color: #fff;
+  background-color: var(--bg-color);
   border-radius: 10px;
-  border: 1px solid #ececec;
+  border: 1px solid var(--soft_border_color);
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
 }
@@ -5804,6 +5806,9 @@ table.no-border td, table.no-border th, table.no-border thead {
 }
 
 .apply-coupon input {
+  background: var(--bg-color);
+  border: 1px solid var(--soft_border_color);
+
   height: 51px;
   border-radius: 10px 0 0 10px;
   background-image: url("../imgs/theme/icons/coupon.png");
@@ -6749,7 +6754,7 @@ h6.post-title {
 
 .invoice-1 .invoice-info-buttom .table .invoice-1 .invoice-info-buttom .table tr,
 .table tr {
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--soft_border_color);
 }
 
 .table > :not(caption) > * > * {
@@ -8500,7 +8505,8 @@ h6.post-title {
 .header-style-1 .main-categori-wrap > a {
   color: #fff;
   line-height: 70px;
-  background: var(--text-active);
+  background-color: rgba(var(--text-active-rgb),.2);
+
   padding: 0 30px;
 }
 
@@ -8524,7 +8530,7 @@ h6.post-title {
 }
 
 .header-style-1 .main-categori-wrap > a:hover {
-  background-color: #29A56C;
+  background: var(--text-active);
 }
 
 .header-style-1 .main-menu.main-menu-light-white > nav > ul > li > a {
