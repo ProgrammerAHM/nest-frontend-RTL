@@ -9710,7 +9710,8 @@ footer .hotline img {
 }
 
 .newsletter .newsletter-inner {
-  background: url(../imgs/banner/banner-10.png) no-repeat center;
+  /* background: url(../imgs/banner/banner-10.png) no-repeat center; */
+  background-color: var(--card);
   background-size: cover;
   padding: 84px 78px;
   clear: both;
@@ -9733,7 +9734,7 @@ footer .hotline img {
 }
 
 .newsletter .newsletter-inner .newsletter-content form {
-  background-color: var(--card);
+  background-color: var(--bg-color);
   color: var(--card-text);
   max-width: 450px;
   border-radius: 50px;
