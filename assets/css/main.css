@@ -2010,6 +2010,7 @@ label {
 }
 
 .hero-slider-1 .single-hero-slider {
+  background-color: var(--card);
   height: 538px;
   border-radius: 30px;
   background-size: cover;
@@ -2051,7 +2052,7 @@ label {
 }
 
 .hero-slider-1 .slider-content form {
-  background-color: var(--card);
+  background-color: var(--bg-color);
   max-width: 450px;
   border-radius: 50px;
 }
@@ -8773,6 +8774,11 @@ span.fi-rs-apps {
 
 .main-menu > nav > ul > li ul.mega-menu li .menu-banner-wrap a {
   display: block;
+  background-color: var(--card);
+  width: 340px;
+  height: 190px;
+  border-radius: 26px;
+
 }
 
 .main-menu > nav > ul > li ul.mega-menu li .menu-banner-wrap a img {
