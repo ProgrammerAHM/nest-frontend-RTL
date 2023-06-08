@@ -1639,7 +1639,7 @@ label {
 
 .custome-checkbox .form-check-label::before {
   content: "";
-  border: 2px solid #ced4da;
+  border: 2px solid var(--med_border_color);
   height: 17px;
   width: 17px;
   margin: 0px 8px 0 0;
@@ -3388,9 +3388,14 @@ table {
   vertical-align: middle;
 }
 
+.description-tables table th , .description-tables table td {
+  padding: 5px 10px;
+
+}
+
 table td, table th {
   padding: 10px 20px;
-  border: 1px solid #ececec;
+  border: 1px solid var(--med_border_color);
   vertical-align: middle;
 }
 
@@ -5178,7 +5183,7 @@ table .product-thumbnail img {
 .size-filter.list-filter a {
   border-radius: 5px;
   padding: 0 9px;
-  background: #fff;
+  background: var(--card);
 }
 
 .size-filter.list-filter li a {
@@ -5275,8 +5280,8 @@ table .product-thumbnail img {
 }
 
 .stock-status.out-stock {
-  color: #f74b81;
-  background: #fde0e9;
+  color: var(--card-text);
+  background: var(--card);
 }
 
 .detail-info .product-price-cover {
@@ -5339,9 +5344,9 @@ table .product-thumbnail img {
 }
 
 .product-extra-link2 a {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #f1f1f1;
-  color: #333;
+  background: var(--bg-color) none repeat scroll 0 0;
+  border: 1px solid var(--soft_border_color);
+  color: var(--card-text);
   border-radius: 5px;
   display: inline-block;
   height: 50px;
@@ -5382,7 +5387,7 @@ table .product-thumbnail img {
 }
 
 .product-extra-link2 .button.button-add-to-cart i {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .product-info {
@@ -7306,7 +7311,7 @@ h6.post-title {
   position: absolute;
   right: -11px;
   top: -5px;
-  color: #ffffff;
+  color: var(--text-color);
   height: 20px;
   width: 20px;
   border-radius: 100%;
@@ -9512,7 +9517,7 @@ span.fi-rs-apps {
 
 .widget-category-2 .count {
   display: inline-block;
-  background-color: #BCE3C9;
+  background-color: var(--text-active);
   width: 24px;
   height: 24px;
   line-height: 24px;
@@ -9520,7 +9525,7 @@ span.fi-rs-apps {
   border-radius: 20px;
   margin-left: 5px;
   font-size: 12px;
-  color: #253D4E;
+  color: var(--text-color);
 }
 
 /*Social network widget*/
