@@ -8503,8 +8503,6 @@ h6.post-title {
   border-style: solid;
     border-color: var(--soft_border_color);
     background-color: var(--card);
-    padding-top: 0px;
-    padding-bottom: 0px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-width: 1px !important;
 }
