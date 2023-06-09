@@ -99,7 +99,7 @@
 }
 
 .select2-container--open .select2-dropdown {
-	left: 0
+	left: -65px
 }
 
 .select2-container--open .select2-dropdown--above {
